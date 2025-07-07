@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Biasa Aja</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="stars"></div>
+    
+    <div class="awal">
+        <h1 id="judul">Halaman Biasa Aja...</h1>
+        <button onclick="startQuiz()">Klik di sini</button>
+    </div>
+
+    <!-- Quiz Section -->
+    <div class="quiz-container hidden" id="quiz">
+        <div class="question-card">
+            <h2 id="question-text">Siapa yang ultah hari ini?</h2>
+            <div class="options">
+                <!-- Options will be dynamically generated -->
+            </div>
+            <div class="progress-bar">
+                <div class="progress" id="progress"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="surprise hidden" id="surprise">
+        <div class="balloons" style="top: 10%; left: 10%;">🎈</div>
+        <div class="balloons" style="top: 15%; right: 15%; animation-delay: 0.5s;">🎈</div>
+        <div class="balloons" style="top: 20%; left: 20%; animation-delay: 1s;">🎈</div>
+        
+        <div class="music-note" style="top: 25%; left: 30%; animation-delay: 0.3s;">🎵</div>
+        <div class="music-note" style="top: 35%; right: 25%; animation-delay: 0.8s;">🎶</div>
+        <div class="music-note" style="bottom: 30%; left: 15%; animation-delay: 1.2s;">🎵</div>
+        
+        <h1 class="animate">🎉 Happy Birthday, Kak Anass! 🎂</h1>
+        <div class="cake" onclick="explodeCake()">🎂</div>
+        <p class="animate">Semoga sehat selalu, panjang umur, semua keinginannya tercapai, dan lancar sampai wisudanya! 💖</p>
+        <button class="party-button" onclick="moreParty()">Lebih Meriah! 🎊</button>
+    </div>
+
+    <script src="script.js">
+        
+    </script>
+</body>
+</html>
